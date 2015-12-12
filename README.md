@@ -14,6 +14,6 @@ HOW TO USE:
 WHAT IS MISSING
 ---------------
 * Multiple markers Supports
-* Better handling of apikey
+* Better handling of apikey, maybe with .env?
 * Restrict the marker to be inside specific area
 * Type in address for marker.
