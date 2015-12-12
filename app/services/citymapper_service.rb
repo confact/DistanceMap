@@ -9,6 +9,7 @@ class CitymapperService
     @apikey = apikey
   end
 
+  ## get time between two cordinates and returns minutes
   def getTimeBetween(startcord, endcord, time)
       options = {
         :startcoord => startcord,

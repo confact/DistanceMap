@@ -4,10 +4,11 @@ class HomeController < ApplicationController
   end
 
   def ajax
-
-    mapper = CitymapperService.new("the_dummy_password")
-
-    @json = mapper.getTimeBetween(params[:start], params[:end], params[:time])
+    ## initialize the citymapper API
+    mapper = CitymapperService.new('the_dummy_password')
+    ## call the city mapper API's time between
+    @json = mapper.getTimeBetween(params[:start], params[:end], params[:timedate])
+    ## render json of the response
     render json: @json
   end
 end
