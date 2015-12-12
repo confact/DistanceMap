@@ -17,6 +17,10 @@
  *= require_tree .
  *= require_self
  */
+ #header {
+   margin-top:20px;
+   margin-bottom:20px;
+ }
  #map_canvas {
      width: 980px;
      height: 500px;
