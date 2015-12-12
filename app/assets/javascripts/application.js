@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require semantic-ui
 //= require picker/picker.js
 //= require picker/picker.date.js
 //= require picker/picker.time.js

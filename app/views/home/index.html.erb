@@ -1,4 +1,16 @@
-<section>
-    <div id='map_canvas'></div>
-    <div id="current">Nothing yet...</div>
-</section>
+<div class="ui container" id='map_canvas'>
+</div>
+<div class="ui page container">
+<p>Pick date time, then drag the red marker to the point you wanna travel and release. It will generate the time you will arrive.</p>
+<form class="ui form">
+  <div class="field">
+    <label>Date</label>
+    <input type="text" id="datepicker">
+  </div>
+  <div class="field">
+    <label>Time</label>
+    <input type="text" id="timepicker">
+  </div>
+</form>
+<div id="current" class="ui very padded text container">Nothing yet...</div>
+</div>
