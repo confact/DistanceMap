@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require picker/picker.js
+//= require picker/picker.date.js
+//= require picker/picker.time.js
 //= require_tree .
 $(function() {
   var path = new google.maps.MVCArray();
